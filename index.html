@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+<section class="section  has-background-light" style="height: 100vh;">
+    <div class="is-flex is-justify-content-center is-align-items-center"  style="min-height: 100%;">
+        <form action="" style="width: 550px; padding: 50px;" class="box">
+            <h1 class="title" style="text-align: center; margin-bottom: 45px;">Laptop Price Predictor</h1>
+
+            <div class="field">
+                <label class="label">RAM (GB)</label>
+                <div class="control">
+                    <input class="input" type="number" placeholder=""/>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Weight (kg)</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="number" style="padding-left: 10px; padding-right: 10px;"/>
+                </div>
+            </div>
+
+            <div class="field">
+               <label class="label">CPU</label>
+                <div class="control">
+                    <div class="select" style="width: 100%;">
+                        <select style="width: 100%;">
+                            <option>Intel Core i3</option>
+                            <option>Intel Core i5</option>
+                            <option>Intel Core i7</option>
+                            <option>Intel Other</option>
+                            <option>AMD</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">GPU</label>
+                <div class="control">
+                    <div class="select" style="width: 100%;">
+                        <select style="width: 100%;">
+                            <option>Nvidia GTX</option>
+                            <option>Nvidia</option>
+                            <option>AMD</option>
+                            <option>Intel</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Manufacturer</label>
+                <div class="control">
+                    <div class="select" style="width: 100%;">
+                        <select style="width: 100%;">
+                            <option>Apple</option>
+                            <option>Asus</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Type</label>
+                <div class="control">
+                    <div class="select" style="width: 100%;">
+                        <select style="width: 100%;">
+                            <option>Apple</option>
+                            <option>Asus</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center">
+                <div class="field" style="margin-right: 50px;">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            Touchscreen
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            IPS
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <button class="button is-link is-fullwidth">Predict Price</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <h1 style="text-align: center; font-size: x-large; font-weight: bolder;">Price: &nbsp; <span>123 USD</span></h1>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>
