@@ -6,7 +6,7 @@ import pickle
 
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="app/templates")
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -69,4 +69,4 @@ def euro_to_usd(euro_price):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, port=3000)
+    uvicorn.run(app, port=8000)
