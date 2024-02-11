@@ -56,7 +56,7 @@ def predict(
 
 
 def predict_price(data):
-    filename = 'model.pickle'
+    filename = 'app/model.pickle'
     with open(filename, 'rb') as file:
         model = pickle.load(file)
 
